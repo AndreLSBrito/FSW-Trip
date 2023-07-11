@@ -18,7 +18,6 @@ const getTripDetails = async (tripId:string) => {
 
 const TripDetails = async ({params}: {params: {tripId:string}}) => {
   const trip = await getTripDetails(params.tripId)
-  console.log("🚀 ~ file: page.tsx:21 ~ TripDetails ~ trip:", trip)
   
   if(!trip) return null
 
@@ -26,7 +25,13 @@ const TripDetails = async ({params}: {params: {tripId:string}}) => {
     <div className="container mx-auto">
       <TripHeader trip={trip}/>
 
-      <TripReservation trip={trip}/>
+      <TripReservation 
+        maxGuests={trip.maxGuests}  
+        pricePerDay={trip.pricePerDay as any} 
+        tripEndDate={trip.endDate} 
+        tripId={trip.id}
+        tripStartDate={trip.startDate}  
+      />
       <TripDescription description={trip.description}/>
       <TripHightlights hightlights={trip.highlights}/>
       <TripLocation location={trip.location} locationDescription={trip.locationDescription}/>
