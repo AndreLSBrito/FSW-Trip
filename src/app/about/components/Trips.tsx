@@ -8,7 +8,7 @@ const getTrips = async () => {
 }
 
 const Trips = async () => {
-  const data = await getTrips
+  const data = await getTrips()
   return <div> Trips</div>
 }
 
