@@ -8,7 +8,7 @@ import React from 'react'
 import { useForm, Controller } from 'react-hook-form'
 
 interface TripReservationProps {
-  trip: Trip;
+	trip: Trip;
 }
 
 interface TripReservationForm {
@@ -17,11 +17,14 @@ interface TripReservationForm {
 	endDate?: Date | null
 }
 const TripReservation = ({trip}: TripReservationProps) => {
-	const {register, handleSubmit,control, formState: {errors}} = useForm<TripReservationForm>()
+	const {register, handleSubmit,control, formState: {errors}, watch} = useForm<TripReservationForm>()
 
 	const onSubmit = (data: any) => {
 
 	}
+
+	const startDate = watch('startDate')
+	const endDate = watch('endDate')
 
   return (
 		<div className="flex flex-col px-5">
@@ -42,7 +45,10 @@ const TripReservation = ({trip}: TripReservationProps) => {
 							placeholderText='Data de início' 
 							onChange={field.onChange} 
 							selected={field.value} 
-							className='w-full'/>
+							className='w-full'
+							minDate={trip.startDate}
+							maxDate={endDate ?? trip.endDate}					
+						/>	
 						)}
 				/>
 
@@ -63,6 +69,8 @@ const TripReservation = ({trip}: TripReservationProps) => {
 							errorMessage={errors?.endDate?.message}
 							onChange={field.onChange} 
 							selected={field.value} 
+							minDate={startDate ?? trip.startDate}
+							maxDate={trip.endDate}
 						/>
 					)}
 				/>
