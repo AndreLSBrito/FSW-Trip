@@ -31,8 +31,10 @@ const TripReservation = ({ tripId, maxGuests, tripStartDate, tripEndDate, priceP
     watch,
     setError,
   } = useForm<TripReservationForm>();
-
+	
   const router = useRouter();
+	const startDate = watch("startDate");
+	const endDate = watch("endDate");
 
   const onSubmit = async (data: TripReservationForm) => {
     const response = await fetch("/api/trips/check", {
@@ -47,7 +49,6 @@ const TripReservation = ({ tripId, maxGuests, tripStartDate, tripEndDate, priceP
     });
 
     const res = await response.json();
-    console.log("🚀 ~ file: TripReservation.tsx:50 ~ onSubmit ~ res:", res)
 
     if (res?.error?.code === "TRIP_ALREADY_RESERVED") {
       setError("startDate", {
@@ -75,13 +76,11 @@ const TripReservation = ({ tripId, maxGuests, tripStartDate, tripEndDate, priceP
       });
     }
 
-    // router.push(
-    //   `/trips/${tripId}/confirmation?startDate=${data.startDate?.toISOString()}&endDate=${data.endDate?.toISOString()}&guests=${data.guests}`
-    // );
+    router.push(
+      `/trips/${tripId}/confirmation?startDate=${data.startDate?.toISOString()}&endDate=${data.endDate?.toISOString()}&guests=${data.guests}`
+    );
   };
 
-  const startDate = watch("startDate");
-  const endDate = watch("endDate");
 
   return (
     <div className="flex flex-col px-5 lg:min-w-[380px] lg:p-5 lg:border-grayLighter lg:border lg:rounded-lg lg:shadow-md">
