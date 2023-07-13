@@ -12,10 +12,11 @@ import {toast} from 'react-toastify'
 interface UserReservationItemProps {
   reservation: Prisma.TripReservationGetPayload<{
     include: {trip: true}
-  }>
+  }>;
+  fetchReservation: () => void
 }
 
-const UserReservationItem = ({reservation}: UserReservationItemProps) => {
+const UserReservationItem = ({reservation, fetchReservation}: UserReservationItemProps) => {
 
   const router = useRouter()
 
@@ -32,7 +33,7 @@ const UserReservationItem = ({reservation}: UserReservationItemProps) => {
 
     toast.success('Reserva cancelada com sucesso!', {position: "bottom-center"})
 
-    router.replace("/")
+    fetchReservation()
   }
 
   return (
