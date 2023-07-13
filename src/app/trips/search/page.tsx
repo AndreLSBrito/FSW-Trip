@@ -19,7 +19,6 @@ const Trips = () => {
       const data = await response.json();
 
       setTrips(data);
-      console.log("🚀 ~ file: page.tsx:22 ~ fetchTrips ~ data:", data)
     };
 
     fetchTrips();
