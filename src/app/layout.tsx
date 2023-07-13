@@ -30,15 +30,15 @@ export default function RootLayout({
         <NextAuthProvider>
           <ToastProvider>
             <div className='flex flex-col h-screen'>
-              <header className='h-[94px]'>
+              <div className='h-[94px]'>
                 <Header/>
-              </header>
+              </div>
+
               <div className='flex-1'>
                 {children}
               </div>
-              <footer>
-                <Footer/>
-              </footer>
+             
+              <Footer/>
             </div>
           </ToastProvider>
         </NextAuthProvider>
