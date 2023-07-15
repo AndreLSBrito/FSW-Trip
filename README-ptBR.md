@@ -1,6 +1,4 @@
-<div style="display:flex;">
-  <h1 style="flex:1; text-align:center">FSW Trip</h1>
-  <div>
+  <div align="right">
     <a href="./README-ptBR.md">
       <img width="30" height="30" src="https://img.icons8.com/emoji/48/brazil-emoji.png" alt="brazil-emoji"/>
     </a>
@@ -8,7 +6,9 @@
       <img width="30" height="30" src="https://img.icons8.com/emoji/48/us-outlying-islands-emoji.png" alt="us-outlying-islands-emoji"/>
     </a>
   </div>
-</div>
+
+
+  <h1 align="center" >FSW Trip</h1>
 
 
 <p align="center">
@@ -220,7 +220,7 @@ Esse projeto está sob a licença MIT.
 ## ✒ Autor
 
 <p align="center">
-  <img style=" border-radius:999px" width="200px" alt="Author Vagner Nerves" title="Author Vagner Nerves" src="https://github.com/andrelsbrito.png" />
+  <img width="200px" alt="Author André Luís" title="Autor André Luís" src="https://github.com/andrelsbrito.png" />
 
   <h3 align="center">André Luís</h3>
 
