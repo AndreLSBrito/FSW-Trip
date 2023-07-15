@@ -20,7 +20,7 @@ Aplicação web full stack para reserva de viagens desenvolvida com as melhores 
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-executando-o-projeto">Executando o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-executando-o-projeto">Executando o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-autor">Autor</a>
@@ -235,7 +235,6 @@ Esse projeto está sob a licença MIT.
 [![Gmail Badge](https://img.shields.io/badge/-andrelsbrito2022@gmail.com-FF0000?style=flat-square&logo=Gmail&logoColor=white&link=mailto:andrelsbrito2022@gmail.com)](mailto:andrelsbrito2022@gmail.com)
 <a href="https://wa.me/5537991277762?text=Oi%2C+Andr%C3%A9%21+tudo+bem%3F+Estava+observando+seu+Github+e+resolvi+entrar+em+contato." alt="WhatsApp">
   <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=https://wa.me/5537991277762?text=Oi%2C+Andr%C3%A9%21+tudo+bem%3F+Estava+observando+seu+Github+e+resolvi+entrar+em+contato."/></a>
-
 </div>
 
 ---
