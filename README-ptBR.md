@@ -1,99 +1,79 @@
-  <div align="right">
+<div align="right">
     <a href="./README-ptBR.md">
       <img width="30" height="30" src="https://img.icons8.com/emoji/48/brazil-emoji.png" alt="brazil-emoji"/>
     </a>
     <a href="./README.md">
       <img width="30" height="30" src="https://img.icons8.com/emoji/48/us-outlying-islands-emoji.png" alt="us-outlying-islands-emoji"/>
     </a>
-  </div>
+</div>
 
+<h1 align="center">FSW Trip 
+</br>  
 
-  <h1 align="center" >FSW Trip</h1>
+[fsw-trip.vercel.app](https://fsw-trip.vercel.app/)
+</h1>
 
-
-<p align="center">
-Aplicação web full stack para reserva de viagens desenvolvida com as melhores práticas de desenvolvimento e tecnologias atuais. 
-
-<br/>
-
-
-<p align="center">
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#%EF%B8%8F-executando-o-projeto">Executando o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-autor">Autor</a>
-</p>
-
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+<p>
+Aplicação full stack de reservas de viagens proporciona aos usuários uma experiência completa e conveniente ao planejar suas viagens. Com recursos de pesquisa flexíveis, reserva de hospedagem fácil, pagamento seguro e gerenciamento de reservas, os usuários podem aproveitar ao máximo suas viagens com total tranquilidade.
 
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="./public/Capa.png" width="100%">
+  <img alt="Projeto FSW Trip" src="./public/Capa.png" width="100%">
 </p>
 
-## 💻 Projeto
+## 💻 Detalhes do Projeto
 
-O FSW Trip foi desenvolvido em Next 13 e consiste em uma aplicação web full stack voltada para a reserva de viagens, que oferece aos usuários a possibilidade de escolher sua hospedagem de acordo com suas preferências de datas e o número de hóspedes. Além disso, a aplicação facilita o processo de pagamento das reservas e permite que os usuários acompanhem suas reservas existentes. Veja a demonstração do projeto e em seguida a descrição de suas funcionalidades.
+FSW Trip foi desenvolvido usando o Next.js 13 e é uma aplicação web full stack voltada para reservas de viagens, oferecendo aos usuários a possibilidade de escolher sua hospedagem com base em suas datas de preferência e no número de hóspedes. Além disso, a aplicação facilita o processo de pagamento das reservas e permite que os usuários acompanhem suas reservas existentes. Confira a demonstração do projeto e a descrição de suas funcionalidades abaixo.
 
-### Demonstração
+A aplicação inclui as seguintes funcionalidades:
 
-O video será colocado em breve...
+- Autenticação com Google:
 
-### Funcionalidades Principais
+  Os usuários podem se inscrever e fazer login na aplicação usando suas contas do Google.
 
-A aplicação contém as seguintes funcionalidades.
+- Pesquisa de Hospedagem:
 
-#### Autenticação com Google:
+  Os usuários podem pesquisar e visualizar uma ampla seleção de opções de hospedagem disponíveis. Eles podem filtrar os resultados com base em critérios como localização, datas de check-in disponíveis e orçamento de diária desejado.
 
-Os usuários podem realizar o "sign up" na aplicação através de sua conta google e através delas realizar o "login".
+- Reserva de Hospedagem:
 
-#### Pesquisa de Hospedagem:
+  Os usuários podem selecionar uma hospedagem e prosseguir para a página de reserva. Lá, eles podem revisar as informações da reserva, incluindo datas, número de hóspedes e preço total. Os usuários têm a opção de revisar e ajustar suas escolhas antes de confirmar a reserva.
 
- Os usuários podem pesquisar e visualizar uma ampla seleção de opções de hospedagem disponíveis. Eles podem filtrar os resultados com base em critérios como localização, datas de check-in disponíveis e orçamento de diária desejado.
+- Pagamento Seguro:
 
-#### Reserva de Hospedagem: 
+  A aplicação oferece um sistema de pagamento seguro que permite aos usuários efetuarem o pagamento de suas reservas de forma rápida e conveniente. Os usuários podem escolher entre diferentes métodos de pagamento e receberão uma confirmação da transação assim que o pagamento for concluído com sucesso.
 
-Os usuários podem selecionar uma hospedagem e prosseguir para a página de reserva. Lá, eles podem revisar as informações da reserva, incluindo datas, número de hóspedes e preço total. Os usuários têm a opção de revisar e ajustar suas escolhas antes de confirmar a reserva.
+- Acompanhamento de Reservas:
 
-#### Pagamento Seguro: 
+  Os usuários têm acesso a uma área de usuário onde podem visualizar todas as suas reservas existentes. Eles podem ver informações detalhadas de cada reserva, incluindo datas, localização da hospedagem, número de hóspedes e detalhes de pagamento. Os usuários também têm a opção de cancelar suas reservas.
 
-A aplicação oferece um sistema de pagamento seguro que permite aos usuários efetuarem o pagamento de suas reservas de forma rápida e conveniente. Os usuários podem escolher entre diferentes métodos de pagamento e receberão uma confirmação da transação assim que o pagamento for concluído com sucesso.
+<!-- ### Deploy
 
-#### Acompanhamento de Reservas: 
+A aplicação está hospedada na Vercel. Para acessar a aplicação e testá-la, clique no link abaixo:
 
-Os usuários têm acesso a uma área de usuário onde podem visualizar todas as suas reservas existentes. Eles podem ver as informações detalhadas de cada reserva, incluindo datas, localização da hospedagem, número de hóspedes e detalhes de pagamento. Os usuários também têm a opção de cancelar suas reservas.
-
-### Deploy
-
-O deployment da aplicação foi feito na vercel, para ter acesso a aplicação e testar acesse o link:
-
-- [FSW Trip](https://fsw-trip.vercel.app/)
+- [FSW Trip](https://fsw-trip.vercel.app/) -->
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ### Front-end
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [Nextjs](https://nextjs.org/docs)
-- [Tailwindcss](https://v2.tailwindcss.com/docs)
+- [Next.js](https://nextjs.org/docs)
+- [Tailwind CSS](https://v2.tailwindcss.com/docs)
 - [Figma](https://www.figma.com/files/recents-and-sharing?fuid=1191860315836009407)
 - [React Hook Form](https://react-hook-form.com/)
-- [React Tostify](https://fkhadra.github.io/react-toastify/introduction/)
-- [React icons](https://react-icons.github.io/react-icons/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/introduction/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 - [React Datepicker](https://reactdatepicker.com/)
 - [React Currency Input](https://cchanxzy.github.io/react-currency-input-field/)
 - [React Country Flag](https://www.npmjs.com/package/react-country-flag)
 
 ### Back-end
 
-- [Nextjs](https://nextjs.org/docs)
+- [Next.js](https://nextjs.org/docs)
 - [NextAuth](https://next-auth.js.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Prisma](https://www.prisma.io/docs)
@@ -102,9 +82,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ### Banco de dados
 
 - [Supabase](https://supabase.com/)
-- [Postgresql](https://www.postgresql.org/)
+- [PostgreSQL](https://www.postgresql.org/)
 
-### Pagemnto Seguro
+### Pagamento Seguro
 
 - [Stripe](https://stripe.com/docs?utm_campaign=BR_en_Search_Brand_Brand_EXA-15088005049&utm_medium=cpc&utm_source=google&ad_content=603963803239&utm_term=stripe&utm_matchtype=e&utm_adposition=&utm_device=c&gclid=CjwKCAjwh8mlBhB_EiwAsztdBLrG6Qi4-XdoH0TJ00iYxEfC2Pte4i9psBCxSA5N6F5WZ0nR_HbXBRoCr5YQAvD_BwE)
 
@@ -135,6 +115,7 @@ Inicie a aplicação
 ```bash
   npm run dev
 ```
+
 Abra http://localhost:3000 com o seu navegador e veja o resultado.
 
 ### Realizando Pagamento
@@ -215,12 +196,12 @@ Você pode visualizar o layout do projeto clicando [aqui](https://www.figma.com/
 
 ## 🌎 Licença
 
-Esse projeto está sob a licença MIT.
+Esse projeto está sob a [licença](./LICENSE) MIT.
 
 ## ✒ Autor
 
 <p align="center">
-  <img width="200px" alt="Author André Luís" title="Autor André Luís" src="https://github.com/andrelsbrito.png" />
+  <img width="200px" alt="Autor André Luís" title="Autor André Luís" src="https://github.com/andrelsbrito.png" />
 
   <h3 align="center">André Luís</h3>
 
@@ -235,11 +216,7 @@ Esse projeto está sob a licença MIT.
 [![Gmail Badge](https://img.shields.io/badge/-andrelsbrito2022@gmail.com-FF0000?style=flat-square&logo=Gmail&logoColor=white&link=mailto:andrelsbrito2022@gmail.com)](mailto:andrelsbrito2022@gmail.com)
 <a href="https://wa.me/5537991277762?text=Oi%2C+Andr%C3%A9%21+tudo+bem%3F+Estava+observando+seu+Github+e+resolvi+entrar+em+contato." alt="WhatsApp">
   <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=https://wa.me/5537991277762?text=Oi%2C+Andr%C3%A9%21+tudo+bem%3F+Estava+observando+seu+Github+e+resolvi+entrar+em+contato."/></a>
+
 </div>
 
 ---
-
-
-
-
-

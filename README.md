@@ -6,27 +6,21 @@
       <img width="30" height="30" src="https://img.icons8.com/emoji/48/us-outlying-islands-emoji.png" alt="us-outlying-islands-emoji"/>
     </a>
   </div>
-
-
-  <h1 align="center" >FSW Trip</h1>
-
-<p align="center">
-A full-stack web application for travel reservations developed with the best development practices and current technologies.
-
-<br/>
-
-<p align="center">
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <!-- <a href="#-project-details">Project Details</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#%EF%B8%8F-running-the-project">Running the Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#%EF%B8%8F-author">Author</a>
-</p>
+  <a href="#%EF%B8%8F-author">Author</a> -->
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+  <h1 align="center" >FSW Trip 
+  </br>  
+
+  [fsw-trip.vercel.app](https://fsw-trip.vercel.app/)
+</h1>
+
+<p >
+Full-stack travel reservation application provides users with a comprehensive and convenient experience when planning their trips. With flexible search features, seamless accommodation booking, secure payment processing, and reservation management, users can make the most of their travels with complete peace of mind.
 
 <br>
 
@@ -34,43 +28,37 @@ A full-stack web application for travel reservations developed with the best dev
   <img alt="FSW Trip Project" src="./public/Capa.png" width="100%">
 </p>
 
-## 💻 Project
+## 💻 Project Details
 
 FSW Trip was developed using Next.js 13 and is a full-stack web application focused on travel reservations, offering users the ability to choose their accommodation based on their preferred dates and the number of guests. Additionally, the application facilitates the payment process for reservations and allows users to track their existing bookings. Check the project demo and the description of its functionalities below.
 
-### Demo
+The application includes the following features:
 
-The video will be available soon...
+- Google Authentication:
 
-### Main Features
+  Users can sign up and log in to the application using their Google accounts.
 
-The application includes the following features.
+- Accommodation Search:
 
-#### Google Authentication:
+  Users can search and view a wide selection of available accommodation options. They can filter the results based on criteria such as location, available check-in dates, and desired daily budget.
 
-Users can sign up and log in to the application using their Google accounts.
+- Accommodation Reservation:
 
-#### Accommodation Search:
+  Users can select an accommodation and proceed to the reservation page. There, they can review reservation information, including dates, number of guests, and total price. Users have the option to review and adjust their choices before confirming the reservation.
 
-Users can search and view a wide selection of available accommodation options. They can filter the results based on criteria such as location, available check-in dates, and desired daily budget.
+- Secure Payment:
 
-#### Accommodation Reservation:
+  The application offers a secure payment system that allows users to make quick and convenient payments for their reservations. Users can choose from different payment methods and will receive a transaction confirmation once the payment is successfully processed.
 
-Users can select an accommodation and proceed to the reservation page. There, they can review reservation information, including dates, number of guests, and total price. Users have the option to review and adjust their choices before confirming the reservation.
+- Reservation Tracking:
 
-#### Secure Payment:
+  Users have access to a user area where they can view all their existing reservations. They can see detailed information for each reservation, including dates, accommodation location, number of guests, and payment details. Users also have the option to cancel their reservations.
 
-The application offers a secure payment system that allows users to make quick and convenient payments for their reservations. Users can choose from different payment methods and will receive a transaction confirmation once the payment is successfully processed.
-
-#### Reservation Tracking:
-
-Users have access to a user area where they can view all their existing reservations. They can see detailed information for each reservation, including dates, accommodation location, number of guests, and payment details. Users also have the option to cancel their reservations.
-
-### Deploy
+<!-- ### Deploy
 
 The application is deployed on Vercel. To access the application and test it, click on the link below:
 
-- [FSW Trip](https://fsw-trip.vercel.app/)
+- [FSW Trip](https://fsw-trip.vercel.app/) -->
 
 ## 🚀 Technologies
 
@@ -214,7 +202,7 @@ You can view the project layout by clicking [here](https://www.figma.com/file/0r
 
 ## 🌎 License
 
-This project is under the MIT license.
+This project is under the MIT [license](./LICENSE).
 
 ## ✒️ Author
 
