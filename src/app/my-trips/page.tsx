@@ -7,11 +7,14 @@ import { Prisma, TripReservation } from '@prisma/client'
 import UserReservationItem from './components/UserReservationItem'
 import Button from '@/components/Button'
 import Link from 'next/link'
+import Loading from '../loading'
+import { toast } from 'react-toastify'
 
 const MyTrips = () => {
   const [reservations, setReservations] = useState<Prisma.TripReservationGetPayload<{
     include: {trip: true}
   }>[]>([])
+  const [isLoading,setIsLoading] = useState(true)
 
   const {status, data} =useSession()
   const router = useRouter()
@@ -21,18 +24,31 @@ const MyTrips = () => {
     const json = await response.json()
 
     setReservations(json)
+    setIsLoading(false)
   }
-
+  
   useEffect(() => {
-    if ( status === 'unauthenticated'){
-     return router.push('/')
-    }
+    try {
 
-    fetchReservations()
+      if ( status === 'unauthenticated'){
+        toast.error('Faça seu login')
+       return router.push('/')
+      }
+  
+      fetchReservations()
+    } catch (error) {
+      console.log('erro ao buscar as reservas')
+      toast.error('Não foi possível encontrar suas reservas, por favor tente mais tarde!')
+      setIsLoading(false)
+    }
 
   }, [status])
 
   return (
+    isLoading
+    ?
+      <Loading/>
+    :
     <div className="container mx-auto p-5">
       <h1 className='font-semibold text-primaryDarker text-xl lg:mb-5'>Minhas viagens</h1>
       {reservations.length>0 
