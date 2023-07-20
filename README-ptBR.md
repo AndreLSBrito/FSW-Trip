@@ -19,7 +19,8 @@ Aplicação full stack de reservas de viagens proporciona aos usuários uma expe
 <br>
 
 <p align="center">
-  <img alt="Projeto FSW Trip" src="./public/Capa.png" width="100%">
+    
+https://github.com/AndreLSBrito/FSW-Trip/assets/110799629/df0ca742-3e99-475f-adde-94799d4b774d
 </p>
 
 ## 💻 Detalhes do Projeto
