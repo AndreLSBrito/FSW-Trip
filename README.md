@@ -25,7 +25,8 @@ Full-stack travel reservation application provides users with a comprehensive an
 <br>
 
 <p align="center">
-  <img alt="FSW Trip Project" src="./public/Capa.png" width="100%">
+  
+https://github.com/AndreLSBrito/FSW-Trip/assets/110799629/df0ca742-3e99-475f-adde-94799d4b774d
 </p>
 
 ## 💻 Project Details
